@@ -266,7 +266,7 @@
           "security": "Seguridad",
           "limits": "Limites",
           "accounts": "cuentas",
-          "apikeys": "API\llaves"
+          "apikeys": "llaves API"
         }
       },
       "staking": {
@@ -377,129 +377,129 @@
       },
       "tier-0": {
         "location-mismatch": {
-          "title": "Your IP address doesn’t match the country you selected.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services unless they connect from their country of residence. Consider <0>upgrading to Tier 1</0>."
+          "title": "Tu dirección IP no concuerda con el pais elegido.",
+          "message": "Usuarios con un nivel de verificación  Nivel 0 no pueden acceder a todos los Servicios de Nash a menos que se conecten desde su pais de residencia. Piensa <0>en incrementar a Nivel 1 tu cuenta</0>."
         },
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services if they connect via VPN or proxy. Please disable any such services or <0>upgrade to Tier 1</0>."
+          "title": "Tomamos nota de que estas usando una VPN.",
+          "message": "Usuarios con un nivel de verificación  Nivel 0 no pueden acceder a todos los Servicios de Nash si se conectan a traves de VPN o proxy. Por favor deshabilita cualquiera de esos servicios o <0>incrementa tu cuenta a nivel 1</0>."
         },
         "high-risk-country": {
-          "title": "Your current verification level is Tier 0. As a result, your access to some parts of the Nash platform will be restricted.",
-          "message": "To use our full portfolio of services, please <0>upgrade to Tier 1</0>."
+          "title": "Actualmente el nivel de verificación de tu cuenta es Nivel 0. Por tanto, tu acceso a algunas partes de la platadorma Nash estará restringido.",
+          "message": "Para poder usar toda la gama de nuestros servicios, por favor <0>incrementa tu cuenta a Nivel 1</0>."
         },
         "duplicate-ip": {
-          "title": "An account has already been created using this IP address.",
-          "message": "To access all Nash services on this account, please <0>upgrade to Tier 1</0>."
+          "title": "Una cuenta ya ha sido creada usando esta dirección IP.",
+          "message": "Para poder usar toda la gama de nuestros servicios, por favor <0>incrementa tu cuenta a Nivel 1</0>."
         }
       },
       "restricted": {
         "us": {
-          "title": "Not all Nash services are currently supported in {{usState}}. Your access to some parts of the Nash platform will be restricted.",
-          "title-no-state": "Not all Nash services are currently supported in your state. Your access to some parts of the Nash platform will be restricted.",
-          "message": "We will notify you by email when {{usState}} is fully supported. Please <0>contact our support team</0> with any questions.",
-          "message-no-state": "We will notify you by email when your state is fully supported. Please <0>contact our support team</0> with any questions."
+          "title": "Actualmente no todos los servicios Nash services estan disponibles en {{usState}}. Tu acceso a algunas partes de la platadorma Nash estará restringido.",
+          "title-no-state": "No todos los servicios Nash services estan disponibles en tu estado. Tu acceso a algunas partes de la platadorma Nash estará restringido.",
+          "message": "Te avisaremos por email cuando el servicio en {{usState}} esté completamente disponible. Por favor <0>contacta nuestro equipo de soporte</0> si tienes alguna pregunta.",
+          "message-no-state": "Te avisaremos por email cuando el servicio en tu Estado esté completamente disponible. Por favor <0>contacta nuestro equipo de soporte</0> si tienes alguna pregunta."
         },
         "generic": {
-          "title": "Not all Nash services are currently supported in your present location. Your access to some parts of the Nash platform will be restricted.",
-          "message": "Please <0>contact our support team</0> with any questions."
+          "title": "No todos los servicios Nash services estan disponibles en tu localidad actual. Tu acceso a algunas partes de la platadorma Nash estará restringido.",
+          "message": "Por favor <0>contacta con nuestro equipo de soporte</0> si tienes alguna pregunta."
         }
       },
       "tier-too-low": {
-        "title": "Your current verification level is Tier {{userTier}}. As a result, your access to some parts of the Nash platform will be restricted.",
-        "message": "To use our full portfolio of services, please <0>upgrade to Tier {{minTier}}</0>."
+        "title": "Actualmente el nivel de verificacion de tu cuenta es Nivel {{userTier}}. Por tanto, tu acceso a algunas partes de la platadorma Nash estará restringido.",
+        "message": "Para poder usar toda la gama de nuestros servicios, por favor <0>incrementa tu cuenta a Nivel {{minTier}}</0>."
       }
     },
     "info": {
       "tier-1+": {
         "location-mismatch": {
-          "title": "We noticed you’re signing in from {{detectedCountry}}.",
-          "message": "If you no longer live in {{accountCountry}}, please <0>contact our support team</0> to update your address."
+          "title": "Nos hemos dado cuenta que estas accediendo a tu cuenta desde {{detectedCountry}}.",
+          "message": "Si ya no vives mas en {{accountCountry}}, por favor <0>contacta nuestro equipo de soporte</0> para actualizar tu dirección."
         }
       },
       "browser": {
         "use-desktop-for-advanced-exchange": {
-          "title": "Browse on desktop for a better experience.",
-          "message": "The ‘Pro’ view is designed for desktop usage. If you are on mobile, try the <0>‘Basic’ view</0>."
+          "title": "Navega en una pantalla de ordenador para una mejor experiencia.",
+          "message": "La vista ‘Pro’ ha sido diseñada para pantalla de ordenador. Si estan usando el telefono movil, utiliza la vista <0>‘Basic’</0>."
         }
       }
     },
-    "dismiss-message": "Don’t tell me this again."
+    "dismiss-message": "No me lo vuelva a repetir."
   },
   "terms": {
-    "user-agreement": "User Agreement",
-    "privacy-notice": "Privacy Notice"
+    "user-agreement": "Acuerdo con el usuario",
+    "privacy-notice": "Aviso de privacidad"
   },
   "account-create": {
     "steps": [
-      "Your details",
-      "Country",
-      "Account details"
+      "Tus datos personales",
+      "Pais",
+      "Datos de la cuenta"
     ],
     "signin": {
-      "desc": "Already have a Nash account?",
-      "sign-in-now": "Sign in now"
+      "desc": "Ya tiene una cuenta con Nash?",
+      "sign-in-now": "Registrarse ahora"
     },
     "form": {
       "fields": {
-        "optional": "(optional)"
+        "optional": "(opcional)"
       },
-      "continue": "Continue",
+      "continue": "Continuar",
       "errors": {
-        "generic-error": "Error signing up for an account. Please try again.",
-        "invalid-referral-code-can-continue": "Invalid referral code.",
-        "invalid-referral-code": "Invalid referral code. Please check your code and try again.",
-        "invalid-email-domain": "Your email provider is not allowed. Please use a different address.",
-        "duplicate-email": "An account has already been created for this email address.",
-        "password-too-short": "Your password should be at least eight characters long.",
-        "invalid-recaptcha": "Recaptcha verification failed. Please try again.",
-        "missing-us-state": "If you live in the United States, you must enter your state."
+        "generic-error": "Error registrando la cuenta. Por favor intentelo de nuevo.",
+        "invalid-referral-code-can-continue": "Código referido incorrecto.",
+        "invalid-referral-code": "Código referido incorrecto. Por favor comprueba tu código y vuelvelo a intentar.",
+        "invalid-email-domain": "Tu proveedor de correo electrónico no esta autorizado. Por favor utiliza otra dirección de correo.",
+        "duplicate-email": "Ya ha sido creada una cuenta para esta dirección de correo.",
+        "password-too-short": "Tu contraseña debe tener al menos una longitud de 8 caracteres.",
+        "invalid-recaptcha": "Falló la verificacion de Recaptcha. Por favor inténtelo de nuevo.",
+        "missing-us-state": "Si vives en los Estados Unidos, debes de introducir el nombre de tu estado."
       }
     },
     "your-details": {
-      "header": "Create an account",
-      "subheader": "Your details",
+      "header": "Crear una cuenta",
+      "subheader": "Tus datos personales",
       "disclaimer": {
-        "title": "Notice for US customers",
-        "desc": "You are creating a preliminary Nash account to participate in the referral program, but your state must be eligible to access some Nash services. If eligible, you will later be asked to sign a user agreement."
+        "title": "Aviso para los clientes de Estados Unidos",
+        "desc": "Estas creando una cuenta provisional Nash para participar en el programa de referidos, pero tu estado podria ser válido solo para acceder a una parte de los servicios de Nash. En caso de ser válido, se te pedirá mas tarde que firmes el acuerdo con el usuario."
       },
       "fields": {
         "full-name": {
-          "label": "Full name"
+          "label": "Nombre completo"
         },
         "referral-code": {
-          "label": "Referral code (optional)",
-          "sub-label": "What is this?"
+          "label": "Código de referido (opcional)",
+          "sub-label": "Qué es esto?"
         }
       },
       "modals": {
         "referrals": {
-          "title": "Nash referral program",
-          "desc": "This will be used to track referrals for future Nash promotions."
+          "title": "Programa de referidos de Nash",
+          "desc": "Esto será usado para seguir referidos para futuras promociones de Nash."
         }
       },
       "user-messages": {
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Please disable any VPN or proxy services to continue. Once you have created an account, you can verify your identity to use a VPN in future."
+          "title": "Nos damos cuenta de que estás usando una VPN.",
+          "message": "Por favor desactiva la VPN o servicios proxy services para continuar. Una vez que hayas creado la cuenta, puedes verificar tu identidad para usar una VPN en el futuro."
         }
       }
     },
     "country-details": {
-      "header": "Create an account",
-      "subheader": "Where do you live?",
+      "header": "Crea una cuenta",
+      "subheader": "Dónde vives?",
       "fields": {
         "country": {
-          "label": "Country of residence"
+          "label": "País de residencia"
         },
         "state": {
-          "label": "State"
+          "label": "Estado"
         },
         "confirm-country": {
-          "label": "I confirm that this is my country of residence."
+          "label": "Confirmo que este es mi país de residencia."
         },
         "confirm-country-and-state": {
-          "label": "I confirm that these are my country and state of residence."
+          "label": "Confirmo que este es mi país de residencia."
         }
       }
     },
