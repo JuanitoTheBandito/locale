@@ -504,109 +504,109 @@
       }
     },
     "account-details": {
-      "header": "Create an account",
-      "subheader": "Account details",
-      "continue": "Create account",
+      "header": "Crea una cuenta",
+      "subheader": "Datos de tu cuenta",
+      "continue": "Crea una cuenta",
       "fields": {
         "email": {
-          "label": "Enter an email address",
-          "placeholder": "Email address"
+          "label": "Introduce una dirección de email",
+          "placeholder": "Dirección de email"
         },
         "password": {
-          "label": "Create a password",
-          "placeholder": "Password",
+          "label": "Crea una contraseña",
+          "placeholder": "Contraseña",
           "errors": {
-            "password-too-weak": "The password you chose is too weak."
+            "password-too-weak": "La contraseña que has elegido es demasiado débil."
           }
         },
         "password-confirm": {
-          "label": "Confirm your password",
-          "placeholder": "Confirm password",
+          "label": "Confirma tu contraseña",
+          "placeholder": "Confirma contraseña",
           "errors": {
-            "passwords-do-not-match": "Passwords do not match."
+            "passwords-do-not-match": "Las contraseñas no coinciden."
           }
         }
       },
       "modals": {
         "password-tips": {
-          "title": "Tips for a strong password",
-          "desc": "A strong password is essential to keep your funds secure. Follow these tips to stay safe:",
+          "title": "Consejos para una contraseña fuerte",
+          "desc": "Una contraseña fuerte es fundamental para mantener tus recursos seguros. Sigue estos consejos para mayor seguridad:",
           "tip-index": "Tip {{index}}",
-          "tip-1": "Do not reuse a password from other websites, even if you change individual words or characters. If you are phished or hacked elsewhere, your Nash account will instantly be compromised.",
-          "tip-2": "Do not include personal information in your password. Names, birthdays and addresses are easy to find out and should be avoided.",
-          "tip-3": "Make your password at least twelve characters long and use a mixture of upper and lowercase letters, numbers and special characters.",
-          "tip-4": "Consider using a password generator to create and store maximally secure passwords."
+          "tip-1": "No reuses contraseñas de otras páginas web, incluso si cambias alguna palabra o algunos caracteres. Si te hackean la contraseña en el otro sitio, tu cuenta con Nash estaria inmediatamente en peligro.",
+          "tip-2": "No incluyas información personal en tu cuenta. Nombres, cumpleaños and direcciones son faciles de descubrir y deberian ser evitadas.",
+          "tip-3": "Haz que tu contraseña sea al menos de 12 caracteres y usa una mezcla de letras mayúsculas y minúsculas , números y caractreres especiales.",
+          "tip-4": "Considera usar un generador de contraseñas para crear y guardar contraseñas super seguras."
         }
       },
       "password": {
-        "desc": "Use a mixture of upper and lowercase letters, numbers and special characters for a stronger password.",
-        "tips": "Password creation tips",
-        "password-strength": "Password strength",
-        "weak": "Weak",
-        "medium": "Medium",
-        "strong": "Strong",
-        "very-strong": "Very strong"
+        "desc": "Usa una mezcla de letras mayúsculas y minúsculas, números y caractreres especiales para conseguir una contraseña más fuerte.",
+        "tips": "Consejos para creación de contraseñas",
+        "password-strength": "Resistencia de la contraseña",
+        "weak": "Débil",
+        "medium": "Media",
+        "strong": "Fuerte",
+        "very-strong": "Muy fuerte"
       }
     },
     "verify-email": {
-      "header": "We’ve sent you an email!",
-      "desc-1": "Please check your email and verify your account.",
-      "desc-2": "If you don’t see our email, check your junk folder.",
-      "resend": "Resend verification email",
-      "resend-delay": "Please wait {{count}} second…",
-      "resend-delay_plural": "Please wait {{count}} seconds…",
-      "back": "Back to sign-in",
-      "success": "Verification email resent successfully!",
+      "header": "Te hemos enviado un email!",
+      "desc-1": "Por favor comprueba tu email y verifica tu cuenta.",
+      "desc-2": "Si no ves nuestro email, revisa la carpeta de correo indeseado.",
+      "resend": "Reenviar email de verificación",
+      "resend-delay": "Por favor espera {{count}} un segundo…",
+      "resend-delay_plural": "Por favor espera {{count}} unos segundos…",
+      "back": "Ir atrás para iniciar sesión",
+      "success": "Reenviado un email de verificación correctamente!",
       "errors": {
-        "generic-error": "Error resending verification email. Please try again."
+        "generic-error": "Error al reenviar un email de verificación. Por favor inténtalo de nuevo."
       }
     }
   },
   "account-setup": {
-    "tab-title": "Set up account",
+    "tab-title": "Crear una cuenta",
     "steps": [
-      "Twelve secret words",
-      "Two-factor authentication"
+      "12 palabras secretas",
+      "Doble autentificación"
     ],
     "general-information": {
-      "title": "General information",
-      "header": "Let’s create your personal account",
-      "desc-1": "Your personal account is generated using twelve secret words. If you lose your password, you can access your account and reset it using these words. For this reason, you absolutely must back up your twelve secret words properly.",
-      "continue": "Get my twelve secret words",
-      "skip2Fa": "Set up it later",
+      "title": "Información general",
+      "header": "Vamos a crear tu cuenta personal",
+      "desc-1": "Tu cuenta personal se genera usando 12 palabras secretas. Si pierdes tu contraseña, puedes acceder a tu cuenta y reestablecerla usando esas palabras. Por esta razón, es imprescindible que guardes tus 12 palabras secretas de forma apropiada.",
+      "continue": "Obtener mis 12 palabras secretas",
+      "skip2Fa": "Ponerlo luego",
       "chart": {
-        "card-top": "Twelve secret words",
+        "card-top": "12 palabras secretas",
         "card-top-right": "Nash account recovery if password is forgotten",
-        "diamond-one": "Used in",
-        "diamond-two": "Generate your personal account, which contains…",
-        "card-btc": "Bitcoin account",
-        "card-neo": "NEO account",
-        "card-eth": "Ethereum account",
-        "card-future": "Any future accounts"
+        "diamond-one": "Usadas en",
+        "diamond-two": "Generar tu cuenta personal, que contiene…",
+        "card-btc": "Cuenta Bitcoin",
+        "card-neo": "Cuenta NEO",
+        "card-eth": "Cuenta Ethereum",
+        "card-future": "Cualquier cuenta futura"
       }
     },
     "secret-words": {
-      "title": "Secret words",
-      "header": "Write down your twelve secret words",
-      "desc": "These words are used to access your funds. You will also need them to reset your password.",
-      "popup-error": "If you wish to print your secret words, please disable any popup blockers and allow Nash to open popups.",
-      "continue": "Continue",
-      "go-back": "Go back",
-      "written-down": "I’ve written down my words.",
-      "check-my-backup": "Check my backup",
+      "title": "Palabras secretas",
+      "header": "Escribe tus 12 palabras secretas",
+      "desc": "Esas palabras se usan para acceder a tus recursos. También las necesitas para reestablecer tu contraseña.",
+      "popup-error": "Si quieres imprimir tus palabras secretas, por favor desactiva cualquier bloqueo de ventanas emergentes de tu navegador y permite a Nash abrir nuevas ventanas.",
+      "continue": "Continua",
+      "go-back": "Ir atrás",
+      "written-down": "Ya he escrito mis palabras.",
+      "check-my-backup": "Comprobar mi copia de respaldo",
       "tips": {
-        "do": "Do write down your words by hand.",
-        "dont": "Don’t screengrab or store your words digitally."
+        "do": "Escribre tus palabras a mano.",
+        "dont": "No hagas captura de pantalla o guardes tus palabras en un fichero en forma digital."
       },
       "modals": {
         "print-warning": {
-          "title": "Print your twelve secret words",
-          "header": "Please make sure your printer is secure!",
-          "body-desc": "If you choose to print your words, make sure:",
-          "body-tips-0": "Your printer is connected to your computer directly with a USB cable.",
-          "body-tips-1": "Your printer is not connected to a network of any kind.",
-          "body-tips-2": "It is impossible for others to connect to your printer via Bluetooth, WLAN, etc.",
-          "button": "I understand - print my words"
+          "title": "Imprime tus 12 palabras secretas",
+          "header": "Por favor asegurate de que tu impresora es segura!",
+          "body-desc": "Si eliges imprimir tus palabras secretas, asegurate que:",
+          "body-tips-0": "Tu impresora esta conectada directamente mediante un cable USB.",
+          "body-tips-1": "Tu impresora no esta conectada a ningún tipo de red.",
+          "body-tips-2": "Es imposible que otros conecten con tu impresora a traves de Bluetooth, WLAN, etc.",
+          "button": "Entiendo - imprime mis palabras secretas"
         }
       },
       "print-window-title": "Nash | Secret word backup",
