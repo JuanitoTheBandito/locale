@@ -173,7 +173,7 @@
       },
       "ioc": {
         "header": "Ejecutar inmediatamente o se cancela"
-        "desc" : "Si tu orden puede ser emparejada inmediatamente se hara asi.Cualquier porcion de la orden que no se empareje se eliminara."
+        "desc": "Si tu orden puede ser emparejada inmediatamente se hara asi.Cualquier porcion de la orden que no se empareje se eliminara."
       }
     }
   },
