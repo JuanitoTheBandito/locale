@@ -576,7 +576,7 @@
       "skip2Fa": "Ponerlo luego",
       "chart": {
         "card-top": "12 palabras secretas",
-        "card-top-right": "Nash account recovery if password is forgotten",
+        "card-top-right": "Nash account recovery if password is forgottenRecuperacion de la cuenta de Nash si olvidas tu contraseña",
         "diamond-one": "Usadas en",
         "diamond-two": "Generar tu cuenta personal, que contiene…",
         "card-btc": "Cuenta Bitcoin",
@@ -609,12 +609,12 @@
           "button": "Entiendo - imprime mis palabras secretas"
         }
       },
-      "print-window-title": "Nash | Secret word backup",
+      "print-window-title": "Nash | Backup de tu palabra secreta",
       "backup-print": {
-        "header": "Secret word backup",
-        "desc-1": "Your twelve secret words can be used to access your ETH, NEO and other accounts if you lose your Nash password.",
-        "desc-2": "Remember: if anyone gains access to your words, your funds are in danger.",
-        "desc-3": "Cut out the slips below. Consider laminating them and storing them in two separate locations."
+        "header": "Backup de tu palabra secreta",
+        "desc-1": "Tus doce palabras secretas pueden ser usadas para acceder a tus tokens de ETH, NEO y otros si pierdes tu contraseña de Nash.",
+        "desc-2": "Recuerda: si alguien consigue tus doce palabras secretas, tus cryptomonedas estan en peligro de ser robadas.",
+        "desc-3": "Recorta las tiras de abajo . Considera plastificarlas y guardarlas en dos lugares diferentes."
       },
       "repeat-secret-words": {
         "header": "Repeat your twelve secret words",
